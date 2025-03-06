@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blen Makeup Studio</title>
+    
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+            margin: 10px;
+            padding: 15px;<
+            height: 2000px; /* Just for demonstration */
+      
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: hsl(309, 100%, 69%); /* Blen's brand color */
+            color: plum;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            z-index: 1000;
+        }
+        .navbar.scrolled {
+            background-color: #c8a8e9; /* Darker shade on scroll */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .nav-item {
+            text-decoration:deeppink;
+            color:#501f5a;
+            padding: 10px 15px;
+            transition: color 0.3s;
+        }
+        .nav-item:hover {
+            color: #ffe600; /* Highlight color on hover */
+        }
+        .content {
+            padding-top: 70px; /* Space for fixed navbar */
+        }
+        section {
+            height: 600px; /* Just for demonstration */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar" id="navbar">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#portfolio" class="nav-item">Portfolio</a>
+        <a href="#contact" class="nav-item">Contact</a>
+    </div>
+
+    <div class="content">
+        <section id="home">
+            <p>Welcome to Blen Makeup Studio</p>
+            <p>Your beauty is our passion.</p>
+            <p>At Blen Makeup Studio, we believe that beauty is an art, and every face is a canvas waiting to be transformed. Located in the heart of [Your Location], our studio is dedicated to enhancing your natural beauty through expert makeup application and personalized services.
+
+              Whether you’re preparing for a special occasion, a wedding, or simply want to indulge in a day of pampering, our talented team of makeup artists is here to provide you with a luxurious experience tailored to your unique style and preferences. We use high-quality products and the latest techniques to ensure you look and feel your best.
+              
+              At Blen, we pride ourselves on creating a welcoming and comfortable environment where every client can feel at ease. Our mission is to empower you with confidence, helping you shine both inside and out.
+              
+              Join us at Blen Makeup Studio, where beauty meets creativity. Book your appointment today and let us bring your beauty vision to life!</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Explore a range of makeup services tailored for you.</p>
+            <p>1. Bridal Makeup
+             Custom bridal makeup packages to ensure you look stunning on your special day. Includes trials and day-of application.</p>
+             <p> 2. Special Occasion Makeup
+             Glamorous makeup for proms, parties, and other special events. Let us enhance your look for any occasion.</p>
+              <p>3. Makeup Lessons
+             One-on-one or group makeup lessons to teach you techniques for everyday beauty or special occasions. Perfect for all skill levels!</p>
+              <p>4. Editorial and Fashion Makeup
+             Creative makeup services for photoshoots, runway shows, and other fashion events. Collaborations with photographers and stylists welcome.</p>
+              <p>5. Airbrush Makeup
+             Flawless, long-lasting airbrush makeup for a lightweight feel and a perfect finish. Ideal for weddings and professional photos.</p>
+              <p>6. Skin Prep and Consultation
+             Personalized skin assessments and prep services to ensure your skin is primed for makeup application, tailored to your skin type.</p>
+             <p>7. Corporate and Group Events
+             Professional makeup services for corporate events, team-building activities, or group gatherings. On-site services available.</p>
+             <p>8. Makeup for Photoshoots
+             Specialized makeup services for photographers and models to achieve the perfect look for any shoot, from portraits to fashion.</p>
+             <p> 9. Product Recommendations
+             Expert advice on makeup products suited to your skin type and preferences. We can help you build your ideal makeup kit.</p>
+             <p> 10. Touch-Up Services
+             On-site touch-up services for events to keep your makeup looking fresh throughout the day.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out our amazing transformations!</p>
+            <div class="container">
+              <h1>Bridal Makeup Transformation</h1>
+              <div class="image-container">
+                <img src="images.jpg" alt="">
+                <img src="images (1).jpg" alt="">
+              </div>
+              <p class="description">
+                  Experience the magic of transformation with our bridal makeup services at Blen Makeup Studio. 
+                  Our expert artists will enhance your natural beauty, ensuring you look stunning on your special day.
+              </p>
+          </div>
+          <h1>Airbrush makeup</h1>
+          <div class="container">
+            <h>easy and simple makeup looks</h>
+            <div class="image-container">
+              <img src="image2.jpg" alt="">
+              <img src="images3.jpg" alt="">
+            </div><br
+    
+
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch for bookings and inquiries.</p>
+            <p>Studio Name: Blen Makeup Studio</p>
+             <p>Address: 456 Radiance Avenue, Suite 2B, Chic Town, NY 10001</p>
+              <p>Phone: (555) 987-6543</p>
+              <p>Email: contact@blenmakeup.com</p>
+             <p> Website: www.blenmakeup.com</p>
+              <p>Social Media:</p>
+              
+              <p>Instagram: @blenmakeup</p>
+              <p>Facebook: facebook.com/blenmakeup</p>
+        </section>
+    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Studio Appointment Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+           color: hotpink;
+           background-color: #ffdce2;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        #home{
+          background-image: url(istockphoto-1331637318-612x612.jpg);
+          background-repeat: no-repeat;
+          background-size:cover;
+          color: deeppink;
+          
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background:pink;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color:deeppink;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color:plum;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Book Your Appointment</h1>
+
+<form action="/submit-appointment" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="message">Additional Message:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit">Book Appointment</button>
+</form>
+
+</body>
+</html>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 0) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling effect
+        const navLinks = document.querySelectorAll('.nav-item');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent default anchor click behavior
+                const targetId = this.getAttribute('href'); // Get the target section ID
+                const targetSection = document.querySelector(targetId); // Find the target section
+
+                // Scroll to the target section smoothly
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
